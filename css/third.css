@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: pink;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.box{
+    box-shadow: 3px 3px 30px 2px;
+    padding-top: 25px;
+    width: 510px;
+    height: 425px;
+    background-color: white;
+    background-image: url("../img/bicycle.png"); 
+    background-position-x: center;
+    background-position-y: 188px; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 100px;
+    margin: auto;
+    border-radius: 7px;
+    margin-top: 70px;
+}
+
+.head_h1{
+    display: flex;
+    font-weight: 650;
+
+}
+
+.head_link{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    border: solid rgba(119, 136, 153, .4) 1px;
+}
+
+.head_img{
+    margin-top: 2.5px;
+}
+
+.head_img{
+    width: 22px;
+    height: 22px;
+    
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    width: 410px;
+    height: 50px;
+    margin-left: 50px;
+    align-items: center;
+
+}
+
+
+.code{
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    color: rgba(119, 136, 153, .4);
+}
+
+.div_body{
+    padding-top: 25px;
+    margin-left: 50px;
+    width: 410px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body_p{
+    color: rgba(68, 72, 75, 0.8);
+    
+}
+
+.p_2{
+    font-weight: 600;
+
+}
+
+
+.p_1{
+    font-weight: 500;
+}

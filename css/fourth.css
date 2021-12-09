@@ -1,0 +1,52 @@
+body{
+    background-color: pink;
+}
+
+.start{
+    background-color: white;
+    width: 600px;
+    height: 250px;
+    margin: auto;
+    margin-top: 50px;
+}
+ul{ display: inline-block   ;
+    width: 610px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.li1{
+    display: inline-block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+    
+}
+.li2{
+    display: inline-block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+}
+.li3{
+    display: inline-block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+}
+h2{
+    font-size: medium;
+}
+p{
+    font-size: smaller;
+}
+strong{
+    font-size: 20px;
+}
+.bot{
+    padding-top: 25px;
+}

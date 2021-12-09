@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.box{
+    width: 1100px;
+    height: 650px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    background-image: url("../exam_2/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: flex; */
+}
+
+body{
+    background-color: pink;
+}
+
+.head_box{
+    width: 1100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+
+.head_p{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 25px;
+    transition: color 0.3s;
+}
+
+.head_ul{
+    margin-right: 10px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.head_li{
+    display: flex;
+    margin-right: 20px;
+}
+
+.head_link{
+    color: rgba(29, 28, 28, 0.486);
+    transition: color 0.5s;
+}
+
+.head_link:hover{
+    color: black;
+}
+
+.body_box{
+    display: block;
+    position: relative;
+}
+
+.body_h2{
+    position: absolute;
+    left: 40%;
+    margin-top: 105px ;
+    font-size: 80px;
+    font-weight: 100;
+    text-align: start;
+}
+
+.body_h3{
+    font-weight: 100;
+    position: absolute;
+    left: 40%;
+    margin-top: 315px;
+}
+
+.body_img{
+    width: 200px;
+    position: absolute;
+    left: 40%;
+    margin-top: 375px;
+}
+
+.body_view{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    margin-top: 520px;
+    font-size: 15px;
+    font-weight: 700;
+   
+}
+
+span{
+    margin-top: 3px;
+}
+
+
+.view_img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.body_text{
+    position: absolute;
+    left: 65%;
+    margin-top: 380px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}
+
+.play{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+    left: 47.5%;
+    margin-top: 422.5px;
+
+}
+
+.nooo{
+    color: black;
+}

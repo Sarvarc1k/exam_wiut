@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input type</title>
+    <link rel="stylesheet" href="./css/second.css">
+</head>
+<body>
+    
+    <form class="registration_form" action="https://echo.htmlacademy.ru" method="GET">
+        <fieldset>
+            <legend>FIO</legend>
+            <label class="label">
+                <p>Ismi</p>
+                <input class="form_control" type="text" name="Ism" placeholder="Ismizni kiriting"   placeholder="Ismim" minlength="2" maxlength="8" autocomplete="off" >
+            </label>
+            <label class="label">
+                <p>Yosh</p>
+                <input class="form_control" type="number" name="Yosh" min="18" max="50" required   placeholder="Yoshingizni kiriting" >
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Jinsi</legend>
+            <label class="label radio_label">
+                <p>Erkak</p>
+                <input type="radio" name="jinsi" value="Erkak">
+            </label>
+            <label class="label radio_label">
+                <p>Ayol</p>
+                <input type="radio" name="jinsi" value="Ayol">
+            </label>
+            <!-- <label class="label radio_label">
+                <p>Trans</p>
+                <input type="radio" name="jinsi" value="Trans">
+            </label> -->
+
+        </fieldset>
+        <fieldset>
+            <legend>Yoqtirgan hobbiyingiz</legend>
+            <label>
+                <p>Cs:go oynash</p>
+                <input type="checkbox" class="radio_label"
+                value="counter" name="hobby">
+            </label>
+            <label>
+                <p>Dota_2 oynash</p>
+                <input type="checkbox" class="radio_label"
+                value="Dota_2" name="hobby">
+            </label>
+            <label>
+                <p>Pubg oynash</p>
+                <input type="checkbox" class="radio_label"
+                value="Pubg" name="hobby">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Boshqalar:</legend>
+            <label class="label">
+                <input type="tel" class="form_control" name="phone"
+                value="+998" minlength="11" required autocomplete="off">
+
+            </label>
+            <label class="label">
+                <p>Resumi</p>
+                <input class="form_control file_input" type="file" name="resume" placeholder="Resumingizni kiriting">
+                <span class="file_input_box">Faylni tanlang</span>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Yashash joyingiz</legend>
+            <label>
+                <select class="select" name="mamlakat">
+                    <option value="uzb">O'zbekiston</option>
+                    <option value="ru">Rossiya</option>
+
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Mablag'</legend>
+            <label class="label">
+                <p>Qancha pulingiz bor</p>
+                <input class="form_control" type="range" step="10" size="100">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>O'zingiz haqida</legend>
+            <textarea name="haqida"></textarea>
+        </fieldset>
+        
+        <!-- <label class="label">
+            <p>Ismi</p>
+            <input class="form_control" type="text" name="Ism" placeholder="Ismizni kiriting" value="Ismim" minlength="2" maxlength="8">
+        </label>
+        <label class="label">
+            <p>Yosh</p>
+            <input class="form_control" type="number" name="Yosh" min="18" max="50" required   placeholder="Yoshingizni kiriting" >
+        </label> -->
+        <!-- <input type="text" name="Ism" placeholder="Ismizni kiriting" value="Ismim" minlength="2" maxlength="8">
+        <input type="number" name="Yosh" min="18" max="50" required   placeholder="Yoshingizni kiriting" > -->
+
+        <!-- <select>
+            <label>
+                <input type="range" step="10" size="100">
+            </label>
+        </select> -->
+        <!-- autocomplete-off yordam ociradi -->
+        <!-- disable ocirib qoyadi inputni 
+        required bowqasiga otqizmidi-->
+        <button class="submit" type="reset">Tozalash</button>
+        <button class="submit" type="submit">Yuborish</button>
+    </form>
+</body>
+</html>
